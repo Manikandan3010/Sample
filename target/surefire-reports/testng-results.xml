@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="246489" started-at="2018-08-03T17:39:04Z" finished-at="2018-08-03T17:43:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="246489" started-at="2018-08-03T17:39:04Z" finished-at="2018-08-03T17:43:10Z">
+      <class name="testcase.catalog_search">
+        <test-method status="PASS" signature="reportpreparation()[pri:0, instance:testcase.catalog_search@bc464]" name="reportpreparation" is-config="true" duration-ms="852" started-at="2018-08-03T23:09:03Z" finished-at="2018-08-03T23:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportpreparation -->
+        <test-method status="PASS" signature="environment_setup()[pri:0, instance:testcase.catalog_search@bc464]" name="environment_setup" is-config="true" duration-ms="55350" started-at="2018-08-03T23:09:04Z" finished-at="2018-08-03T23:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- environment_setup -->
+        <test-method status="PASS" signature="Amazon_search()[pri:0, instance:testcase.catalog_search@bc464]" name="Amazon_search" duration-ms="187608" started-at="2018-08-03T23:09:59Z" finished-at="2018-08-03T23:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazon_search -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcase.catalog_search@bc464]" name="teardown" is-config="true" duration-ms="3459" started-at="2018-08-03T23:13:07Z" finished-at="2018-08-03T23:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Amazon_search status=SUCCESS method=catalog_search.Amazon_search()[pri:0, instance:testcase.catalog_search@bc464] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testcase.catalog_search@bc464]" name="aftersuite" is-config="true" duration-ms="1005" started-at="2018-08-03T23:13:10Z" finished-at="2018-08-03T23:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testcase.catalog_search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
